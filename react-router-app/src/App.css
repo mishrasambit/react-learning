@@ -1,0 +1,75 @@
+
+.blogconainer{
+  display: flex;
+  flex-direction: column;
+}
+.appheader{
+  display: flex;
+  background: lightgrey;
+  justify-content: space-around;
+}
+.logo{
+  display: flex;
+  padding: 10px;
+}
+.headermenu{
+  display: flex;
+}
+.headermenu a{
+  padding: 10px;
+}
+
+.maincontent{
+  display: flex;
+}
+
+.leftcontent{
+  flex-basis: 20%;
+}
+.centercontent{
+  flex-basis: 60%;
+  background: linen;
+  display: flex;
+  justify-content: center;
+}
+.rightcontent{
+  flex-basis: 20%;
+}
+
+.blogs-content{
+  background: linen;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.blog-card{
+  display: flex;
+  padding: 10px;
+  border: 1px solid;
+  box-shadow: 6px 5px 8px 0px;
+  cursor: pointer;
+}
+.blogdetail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.blog-title{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.blog-body{
+  padding: 10px;
+  text-transform: capitalize;
+}
+.button-area{
+  display: flex;
+  gap: 10px;
+}
+.contactform{
+  padding: 10px;
+}
